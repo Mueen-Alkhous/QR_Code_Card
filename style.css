@@ -1,0 +1,51 @@
+:root {
+    --border-curve: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  html {
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    padding: 15px;
+
+    border-radius: var(--border-curve);
+    text-align: center;
+  }
+
+  img {
+    width: 270px;
+    border-radius: var(--border-curve);
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+  }
+
+  p {
+    color: hsl(220, 15%, 55%);
+  }
+
+  .attribution {
+    position: absolute;
+    width: max-content;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
